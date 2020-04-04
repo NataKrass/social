@@ -1,0 +1,31 @@
+.nav {
+  grid-area: nav;
+  background-color: mediumspringgreen;
+  padding: 15px;
+}
+
+.item a {
+  color: white;
+  text-decoration: none;
+}
+
+.item a.active  {
+  color: gold;
+}
+.friends {
+  padding-top: 30px;
+}
+.settings {
+  padding-top: 60px;
+}
+.friendImg {
+  width: 25px;
+  height: 25px;
+  background: rosybrown;
+  border-radius: 50%;
+  margin: 8px 0;
+}
+.friendsImges {
+  display: flex;
+  justify-content: space-around;
+}

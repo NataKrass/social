@@ -1,0 +1,12 @@
+
+.content {
+  grid-area: content;
+  background-color: mediumturquoise;
+ 
+}
+.ava img {
+  width: 30px;
+}
+.ava {
+  padding: 15px;
+}
