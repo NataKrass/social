@@ -3,7 +3,7 @@ import { addPostActionCreator, updateNewPostTextActionCreator } from '../../../r
 import MyPosts from './MyPosts';
 import {connect} from 'react-redux';
 
-// const SuperMyPostsContainer = (props) => {
+// const MyPostsContainer = (props) => {
 //     //let state = props.store.getState();
 //     return (
 //         <StoreContext.Consumer>{

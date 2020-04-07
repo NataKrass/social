@@ -24,8 +24,9 @@ const App = (props) => {
               <Profile />} />
           <Route path="/news" render={ () => <News />} />
           <Route path="/music" component={ () => <Music />} />
+          <Route path="/friends" render={ () => <Friends/>} />
           <Route path="/settings" component={Settings} />
-          <Route path="/friends" render={ () => <Friends friendState={props.state.sidebar}/>} />
+         
         </div>
       </div>
     </BrowserRouter>
