@@ -3,10 +3,9 @@ import './App.css';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import Profile from './components/Profile/Profile';
-import Dialogs from './components/Dialogs/Dialogs';
 import News from './components/News/News';
 import Music from './components/Music/Music';
-import Friends from './components/Friends/Friends';
+import UsersContainer from './components/Users/UsersContainer';
 import { Route, BrowserRouter } from 'react-router-dom';
 import Settings from './components/Settings/Settings';
 import DialogsContainer from './components/Dialogs/DialogsContainer';
@@ -24,13 +23,13 @@ const App = (props) => {
               <Profile />} />
           <Route path="/news" render={ () => <News />} />
           <Route path="/music" component={ () => <Music />} />
-          <Route path="/friends" render={ () => <Friends/>} />
           <Route path="/settings" component={Settings} />
-         
+          <Route path="/users" render={ () => <UsersContainer />} />
         </div>
       </div>
     </BrowserRouter>
   )
 }
+
 
 export default App;
